@@ -11,6 +11,7 @@
 	<properties>
 		<version.thorntail>2.2.0.Final</version.thorntail>
 		<version.arquillian>1.2.1.Final</version.arquillian>
+		<version.h2>1.4.197</version.h2>
 		<version.junit>4.12</version.junit>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
@@ -102,6 +103,21 @@
 
 		<dependency>
 			<groupId>io.thorntail</groupId>
+			<artifactId>datasources</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.thorntail</groupId>
+			<artifactId>jpa</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>io.thorntail</groupId>
+			<artifactId>transactions</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>io.thorntail</groupId>
 			<artifactId>arquillian</artifactId>
 			<scope>test</scope>
 		</dependency>
@@ -112,6 +128,12 @@
 			<groupId>javax</groupId>
 			<artifactId>javaee-api</artifactId>
 			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<version>${version.h2}</version>
 		</dependency>
 
 		<dependency>
