@@ -11,7 +11,7 @@
 	<properties>
 		<version.thorntail>2.2.0.Final</version.thorntail>
 		<version.arquillian>1.2.1.Final</version.arquillian>
-		<version.h2>1.4.197</version.h2>
+		<version.h2>2.0.206</version.h2>
 		<version.junit>4.12</version.junit>
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
